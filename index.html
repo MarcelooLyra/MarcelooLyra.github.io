@@ -5,27 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            background-color: #00BD9D
+        }
+        h1 {
+            font-family: 'Caveat', cursive;
+            font-size: 50px;
+        }
+        .bolded {
+            font-weight: bold
+        }
+        .emphasized {
+            font-style: italic;
+        }
+        .qualities-list {
+            font-size: 20px;
+        }
+        .main-quality {
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
     <h1>Marcelo de Oliveira Lyra</h1>
-    <img id="início" src="minhafoto.png" alt="foto de Marcelo Lyra"> 
+    <img id="beggining" src="minhafoto.png" alt="foto de Marcelo Lyra">
    
-    <p>Meu nome é Marcelo, tenho 29 anos, sou brasileiro e atualmente moro no Rio de Janeiro, capital. Sou formado em Direito, mas me encontro em processo de transição de carreira, para realizar <strong>meu sonho</strong> de me tornar um programador.</p>
-    <p id="qualidades">Minhas qualidades:</p>
+    <p>Meu nome é Marcelo, tenho 29 anos, sou brasileiro e atualmente moro no Rio de Janeiro, capital. Sou formado em Direito, mas me encontro em processo de transição de carreira, para realizar <span class="bolded">meu sonho</span> de me tornar um programador.</p>
+    <p id="qualities">Minhas qualidades:</p>
 
     <ul>
-        <li>Sou proativo;</li>
-        <li>Sei me comunicar bem com colegas de profissão;</li>
-        <li>Gosto de trabalhar em equipe;</li>
-        <li>Sei realizar pesquisas com sucesso para solucionar problemas do dia a dia;</li>
-        <li><strong><em>Gosto de aprender a aprender</em>, apenas copiar um código sem entender o seu funcionamento não me satisfaz;</strong></li>
+        <li><span class="qualities-list">Sou proativo;</span></li>
+        <li><span class="qualities-list">Sei me comunicar bem com colegas de trabalho;</span></li>
+        <li><span class="qualities-list">Gosto de trabalhar em equipe;</span></li>
+        <li><span class="qualities-list">Sei realizar pesquisas com sucesso para solucionar problemas do dia a dia;</span></li>
+        <li><span class="bolded main-quality"><span class="emphasized"> Gosto de aprender a aprender</span>, apenas copiar um código sem entender o seu funcionamento não me satisfaz;</span></li>
     </ul>
    
-    <a href="https://www.linkedin.com/in/marcelo-lyra-70b0b7121/"target="_blank"> Linkedin </a>
+    <a href="https://www.linkedin.com/in/marcelo-lyra-70b0b7121/" target="_blank"> Linkedin </a>
 
     <ul>
-        <li><a href="#início">Voltar ao início</a></li>
-        <li><a href="#qualidades">Ir para minhas qualidades</a></li>
+        <li><a href="#beggining">Voltar ao início</a></li>
+        <li><a href="#qualities">Ir para minhas qualidades</a></li>
     </ul>
     
 </body>
